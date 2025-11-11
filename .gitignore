@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Data & figures (generated)
+data/*.csv
+!data/.gitkeep
+
+figures/*.png
+!figures/.gitkeep
